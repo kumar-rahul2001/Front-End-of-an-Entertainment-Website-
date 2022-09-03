@@ -1,2 +1,2 @@
 # Front-End-of-an-Entertainment-Website
-Using HTML, CSS And JavaScript
+I created this entertainment website like hotstar Using HTML, CSS And JavaScript
