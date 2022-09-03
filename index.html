@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<!-- Rahul Kumar
+Date - 03/08/2022
+ -->
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Feel Good Movies</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+    <!-- Navbar start -->
+    <div class="wrapper">
+        <nav>
+            <input type="checkbox" id="show-search">
+            <input type="checkbox" id="show-menu">
+            <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+            <div class="content">
+                <div class="logo"><a href="#">FeelGoodMovies</a></div>
+                <ul class="links">
+                    <li><a href="#">HOME</a></li>
+                    <li>
+                        <a href="#" class="desktop-link">MOVIES</a>
+                        <input type="checkbox" id="show-features">
+                        <label for="show-features">MOVIES</label>
+                        <ul>
+                            <li><a href="#">SOUTH HINDI DUBBED</a></li>
+                            <li><a href="#">BOLLYWOOD</a></li>
+                            <li><a href="#">HOLLYWOOD</a></li>
+                            <li><a href="#">PUNJABI</a></li>
+                            <li><a href="#">BENGALI</a></li>
+                            <li><a href="#">MULTI AUDIO</a></li>
+                            <li><a href="#">DUAL AUDIO</a></li>
+                            <li><a href="#">HINDI DUBBED</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="desktop-link">GENRE</a>
+                        <input type="checkbox" id="show-features">
+                        <label for="show-features">GENRE</label>
+                        <ul>
+                            <li><a href="#">ACTION</a></li>
+                            <li><a href="#">ADVENTURE</a></li>
+                            <li><a href="#">ANIMATED</a></li>
+                            <li><a href="#">COMEDY</a></li>
+                            <li><a href="#">CRIME</a></li>
+                            <li><a href="#">DRAMA</a></li>
+                            <li><a href="#">FANTASY</a></li>
+                            <li><a href="#">HISTORICAL</a></li>
+                            <li><a href="#">HORROR</a></li>
+                            <li><a href="#">MYSTRY</a></li>
+                            <li><a href="#">POLITICAL</a></li>
+                            <li><a href="#">ROMANCE</a></li>
+                            <li><a href="#">SCI-FI</a></li>
+                            <li><a href="#">YEAR</a></li>
+                        </ul>
+                    </li>
+                    </li>
+                    <li>
+                        <a href="#" class="desktop-link">YEAR</a>
+                        <input type="checkbox" id="show-features">
+                        <label for="show-features">YEAR</label>
+                        <ul>
+                            <li><a href="#">2022</a></li>
+                            <li><a href="#">2021</a></li>
+                            <li><a href="#">2020</a></li>
+                            <li><a href="#">ALL TIME</a></li>
+                        </ul>
+                    </li>
+                    </li>
+                    <li>
+                        <a href="#" class="desktop-link">QUALITY</a>
+                        <input type="checkbox" id="show-features">
+                        <label for="show-features">QUALITY</label>
+                        <ul>
+                            <li><a href="#">480P MOVIES</a></li>
+                            <li><a href="#">720P MOVIES</a></li>
+                            <li><a href="#">1080P MOVIES</a></li>
+                            <li><a href="#">2K MOVIES</a></li>
+                            <li><a href="#">4K MOVIES</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="desktop-link">WEB SERIES</a>
+                        <input type="checkbox" id="show-services">
+                        <label for="show-services">WEB SERIES</label>
+                        <ul>
+                            <li><a href="#">INDIAN</a></li>
+                            <li><a href="#">HOLLYWOOD</a></li>
+                            <li><a href="#">KOREAN</a></li>
+                            <li><a href="#">NETFLIX</a></li>
+                            <li><a href="#">FEEL GOOD ORIGINALS</a></li>
+                            <li>
+                                <a href="#" class="desktop-link">More Items</a>
+                                <input type="checkbox" id="show-items">
+                                <label for="show-items">More Items</label>
+                                <ul>
+                                    <li><a href="#">KIDS SHOW</a></li>
+                                    <li><a href="#">AMAZOM PRIME SERIES</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
+            <span><button>Upgrade</button></span>
+            <a href="#"><i class="fa-solid fa-circle-user"></i></a>
+            <form action="#" class="search-box">
+                <input type="text" placeholder="Type Something to Search..." required>
+                <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
+            </form> -->
+            <div class="right-container">
+                <input type="text" class="search-box-hos" placeholder="search">
+                <button class="sub-btn-hos">subscribe</button>
+                <a href="#"><i class="fa-solid fa-circle-user"></i></a>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar end -->
+
+    <!-- Second Navbar starts -->
+    <marquee class="wrapper_sec" behavior="scroll" direction="right" scrollamount="12">
+        <ul>
+            <li><a href="#">Bollywood</a></li>
+            <li><a href="#">Hollywood</a></li>
+            <li><a href="#">South(hindi dubbed)</a></li>
+            <li><a href="#">Dual Audio</a></li>
+            <li><a href="#">Web Series</a></li>
+            <li><a href="#">Korean Drama</a></li>
+            <li><a href="#">Kids Special</a></li>
+        </ul>
+    </marquee>
+    <!-- Second Navbar end -->
+
+    <!-- Slider code starts  -->
+    <div class="carousel-container">
+        <div class="carousel">
+            <!-- <div class="slider">
+                <div class="slide-content">
+                    <h1 class="movie-title">loki</h1>
+                    <p class="movie-des">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit saepe eius
+                        ratione nostrum mollitia explicabo quae nam pariatur. Sint, odit?</p>
+                </div>
+                <a href="#"><img src="/Feel Good Movies/img/slider 1.png" alt=""></a>
+            </div> -->
+        </div>
+    </div>
+    <!-- Slider code ends  -->
+
+    <!-- Movie sections starts  -->
+    <!-- Movie row one code starts  -->
+    <h1><a href="#" class="title">Sci-Fi</a></h1>
+    <div class="movies-list">
+        <button class="pre-btn"><img src="/Feel Good Movies/img/pre.png" alt=""></button>
+        <button class="nxt-btn"><img src="/Feel Good Movies/img/nxt.png" alt=""></button>
+        <div class="card-container">
+            <div class="card">
+                <img src="/Feel Good Movies/img/poster 1.png" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+                    <!-- <button class="watchlist-btn">add to watchlist</button> -->
+                </div>
+            </div>
+            <div class="card">
+                <img src="/Feel Good Movies/img/poster 2.png" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+                    <!-- <button class="watchlist-btn">add to watchlist</button> -->
+                </div>
+            </div>
+            <div class="card">
+                <img src="/Feel Good Movies/img/poster 3.png" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+                    <!-- <button class="watchlist-btn">add to watchlist</button> -->
+                </div>
+            </div>
+            <div class="card">
+                <img src="/Feel Good Movies/img/poster 4.png" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+                    <!-- <button class="watchlist-btn">add to watchlist</button> -->
+                </div>
+            </div>
+            <div class="card">
+                <img src="/Feel Good Movies/img/poster 5.png" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+                    <!-- <button class="watchlist-btn">add to watchlist</button> -->
+                </div>
+            </div>
+            <div class="card">
+                <img src="/Feel Good Movies/img/poster 6.png" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+                    <!-- <button class="watchlist-btn">add to watchlist</button> -->
+                </div>
+            </div>
+            <div class="card">
+                <img src="/Feel Good Movies/img/poster 7.png" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+                    <!-- <button class="watchlist-btn">add to watchlist</button> -->
+                </div>
+            </div>
+            <div class="card">
+                <img src="/Feel Good Movies/img/poster 8.png" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+                    <!-- <button class="watchlist-btn">add to watchlist</button> -->
+                </div>
+            </div>
+            <div class="card">
+                <img src="/Feel Good Movies/img/poster 9.png" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+                    <!-- <button class="watchlist-btn">add to watchlist</button> -->
+                </div>
+            </div>
+            <div class="card">
+                <img src="/Feel Good Movies/img/poster 10.png" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+                    <!-- <button class="watchlist-btn">add to watchlist</button> -->
+                </div>
+            </div>
+            <div class="card">
+                <img src="/Feel Good Movies/img/poster 11.png" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+                    <!-- <button class="watchlist-btn">add to watchlist</button> -->
+                </div>
+            </div>
+            <div class="card">
+                <img src="/Feel Good Movies/img/poster 12.png" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+                    <!-- <button class="watchlist-btn">add to watchlist</button> -->
+                </div>
+            </div>
+            <div class="card">
+                <img src="/Feel Good Movies/img/poster 1.png" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+                    <!-- <button class="watchlist-btn">add to watchlist</button> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Movie row one code ends  -->
+    <!-- Movie row two code starts  -->
+    <h1><a href="#" class="title">Action</a></h1>
+    <div class="movies-list">
+        <button class="pre-btn"><img src="/Feel Good Movies/img/pre.png" alt=""></button>
+        <button class="nxt-btn"><img src="/Feel Good Movies/img/nxt.png" alt=""></button>
+        <div class="card-container">
+            <div class="card">
+                <img src="/Feel Good Movies/img/poster 1.png" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+                    <!-- <button class="watchlist-btn">add to watchlist</button> -->
+                </div>
+            </div>
+            <div class="card">
+                <img src="/Feel Good Movies/img/poster 2.png" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+                    <!-- <button class="watchlist-btn">add to watchlist</button> -->
+                </div>
+            </div>
+            <div class="card">
+                <img src="/Feel Good Movies/img/poster 3.png" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+                    <!-- <button class="watchlist-btn">add to watchlist</button> -->
+                </div>
+            </div>
+            <div class="card">
+                <img src="/Feel Good Movies/img/poster 4.png" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+                    <!-- <button class="watchlist-btn">add to watchlist</button> -->
+                </div>
+            </div>
+            <div class="card">
+                <img src="/Feel Good Movies/img/poster 5.png" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+                    <!-- <button class="watchlist-btn">add to watchlist</button> -->
+                </div>
+            </div>
+            <div class="card">
+                <img src="/Feel Good Movies/img/poster 6.png" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+                    <!-- <button class="watchlist-btn">add to watchlist</button> -->
+                </div>
+            </div>
+            <div class="card">
+                <img src="/Feel Good Movies/img/poster 7.png" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+                    <!-- <button class="watchlist-btn">add to watchlist</button> -->
+                </div>
+            </div>
+            <div class="card">
+                <img src="/Feel Good Movies/img/poster 8.png" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+                    <!-- <button class="watchlist-btn">add to watchlist</button> -->
+                </div>
+            </div>
+            <div class="card">
+                <img src="/Feel Good Movies/img/poster 9.png" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+                    <!-- <button class="watchlist-btn">add to watchlist</button> -->
+                </div>
+            </div>
+            <div class="card">
+                <img src="/Feel Good Movies/img/poster 10.png" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+                    <!-- <button class="watchlist-btn">add to watchlist</button> -->
+                </div>
+            </div>
+            <div class="card">
+                <img src="/Feel Good Movies/img/poster 11.png" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+                    <!-- <button class="watchlist-btn">add to watchlist</button> -->
+                </div>
+            </div>
+            <div class="card">
+                <img src="/Feel Good Movies/img/poster 12.png" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+                    <!-- <button class="watchlist-btn">add to watchlist</button> -->
+                </div>
+            </div>
+            <div class="card">
+                <img src="/Feel Good Movies/img/poster 1.png" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+                    <!-- <button class="watchlist-btn">add to watchlist</button> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Movie row two code ends  -->
+    <!-- Movie row three code starts  -->
+    <h1><a href="#" class="title">Romance</a></h1>
+    <div class="movies-list">
+        <button class="pre-btn"><img src="/Feel Good Movies/img/pre.png" alt=""></button>
+        <button class="nxt-btn"><img src="/Feel Good Movies/img/nxt.png" alt=""></button>
+        <div class="card-container">
+            <div class="card">
+                <img src="/Feel Good Movies/img/poster 1.png" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+                    <!-- <button class="watchlist-btn">add to watchlist</button> -->
+                </div>
+            </div>
+            <div class="card">
+                <img src="/Feel Good Movies/img/poster 2.png" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+                    <!-- <button class="watchlist-btn">add to watchlist</button> -->
+                </div>
+            </div>
+            <div class="card">
+                <img src="/Feel Good Movies/img/poster 3.png" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+                    <!-- <button class="watchlist-btn">add to watchlist</button> -->
+                </div>
+            </div>
+            <div class="card">
+                <img src="/Feel Good Movies/img/poster 4.png" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+                    <!-- <button class="watchlist-btn">add to watchlist</button> -->
+                </div>
+            </div>
+            <div class="card">
+                <img src="/Feel Good Movies/img/poster 5.png" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+                    <!-- <button class="watchlist-btn">add to watchlist</button> -->
+                </div>
+            </div>
+            <div class="card">
+                <img src="/Feel Good Movies/img/poster 6.png" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+                    <!-- <button class="watchlist-btn">add to watchlist</button> -->
+                </div>
+            </div>
+            <div class="card">
+                <img src="/Feel Good Movies/img/poster 7.png" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+                    <!-- <button class="watchlist-btn">add to watchlist</button> -->
+                </div>
+            </div>
+            <div class="card">
+                <img src="/Feel Good Movies/img/poster 8.png" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+                    <!-- <button class="watchlist-btn">add to watchlist</button> -->
+                </div>
+            </div>
+            <div class="card">
+                <img src="/Feel Good Movies/img/poster 9.png" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+                    <!-- <button class="watchlist-btn">add to watchlist</button> -->
+                </div>
+            </div>
+            <div class="card">
+                <img src="/Feel Good Movies/img/poster 10.png" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+                    <!-- <button class="watchlist-btn">add to watchlist</button> -->
+                </div>
+            </div>
+            <div class="card">
+                <img src="/Feel Good Movies/img/poster 11.png" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+                    <!-- <button class="watchlist-btn">add to watchlist</button> -->
+                </div>
+            </div>
+            <div class="card">
+                <img src="/Feel Good Movies/img/poster 12.png" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+                    <!-- <button class="watchlist-btn">add to watchlist</button> -->
+                </div>
+            </div>
+            <div class="card">
+                <img src="/Feel Good Movies/img/poster 1.png" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+                    <!-- <button class="watchlist-btn">add to watchlist</button> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Movie row three code ends  -->
+    <!-- Movie row four code starts  -->
+    <h1><a href="#" class="title">Drama</a></h1>
+    <div class="movies-list">
+        <button class="pre-btn"><img src="/Feel Good Movies/img/pre.png" alt=""></button>
+        <button class="nxt-btn"><img src="/Feel Good Movies/img/nxt.png" alt=""></button>
+        <div class="card-container">
+            <div class="card">
+                <img src="/Feel Good Movies/img/poster 1.png" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+                    <!-- <button class="watchlist-btn">add to watchlist</button> -->
+                </div>
+            </div>
+            <div class="card">
+                <img src="/Feel Good Movies/img/poster 2.png" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+                    <!-- <button class="watchlist-btn">add to watchlist</button> -->
+                </div>
+            </div>
+            <div class="card">
+                <img src="/Feel Good Movies/img/poster 3.png" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+                    <!-- <button class="watchlist-btn">add to watchlist</button> -->
+                </div>
+            </div>
+            <div class="card">
+                <img src="/Feel Good Movies/img/poster 4.png" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+                    <!-- <button class="watchlist-btn">add to watchlist</button> -->
+                </div>
+            </div>
+            <div class="card">
+                <img src="/Feel Good Movies/img/poster 5.png" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+                    <!-- <button class="watchlist-btn">add to watchlist</button> -->
+                </div>
+            </div>
+            <div class="card">
+                <img src="/Feel Good Movies/img/poster 6.png" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+                    <!-- <button class="watchlist-btn">add to watchlist</button> -->
+                </div>
+            </div>
+            <div class="card">
+                <img src="/Feel Good Movies/img/poster 7.png" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+                    <!-- <button class="watchlist-btn">add to watchlist</button> -->
+                </div>
+            </div>
+            <div class="card">
+                <img src="/Feel Good Movies/img/poster 8.png" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+                    <!-- <button class="watchlist-btn">add to watchlist</button> -->
+                </div>
+            </div>
+            <div class="card">
+                <img src="/Feel Good Movies/img/poster 9.png" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+                    <!-- <button class="watchlist-btn">add to watchlist</button> -->
+                </div>
+            </div>
+            <div class="card">
+                <img src="/Feel Good Movies/img/poster 10.png" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+                    <!-- <button class="watchlist-btn">add to watchlist</button> -->
+                </div>
+            </div>
+            <div class="card">
+                <img src="/Feel Good Movies/img/poster 11.png" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+                    <!-- <button class="watchlist-btn">add to watchlist</button> -->
+                </div>
+            </div>
+            <div class="card">
+                <img src="/Feel Good Movies/img/poster 12.png" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+                    <!-- <button class="watchlist-btn">add to watchlist</button> -->
+                </div>
+            </div>
+            <div class="card">
+                <img src="/Feel Good Movies/img/poster 1.png" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+                    <!-- <button class="watchlist-btn">add to watchlist</button> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Movie row four code ends  -->
+    <!-- Movie sections ends  -->
+
+    <!-- footer code starts here -->
+    <footer>
+        <div class="row primary">
+            <div class="column about">
+
+                <h3>Foolish Developer</h3>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae,
+                    voluptatem corporis error non,
+                </p>
+
+                <div class="social">
+                    <i class="fa-brands fa-facebook-square"></i>
+                    <i class="fa-brands fa-instagram-square"></i>
+                    <i class="fa-brands fa-twitter-square"></i>
+                    <i class="fa-brands fa-youtube-square"></i>
+                    <i class="fa-brands fa-whatsapp-square"></i>
+                </div>
+            </div>
+
+            <div class="column links">
+                <h3>Some Links</h3>
+
+                <ul>
+
+                    <li>
+                        <a href="#faq">F.A.Q</a>
+                    </li>
+                    <li>
+                        <a href="#cookies-policy">Cookies Policy</a>
+                    </li>
+                    <li>
+                        <a href="#terms-of-services">Terms Of Service</a>
+                    </li>
+                    <li>
+                        <a href="#support">Support</a>
+                    </li>
+                </ul>
+
+            </div>
+
+
+            <div class="column links">
+                <h3>Some Links</h3>
+                <ul>
+                    <li>
+                        <a href="#faq">F.A.Q</a>
+                    </li>
+                    <li>
+                        <a href="#cookies-policy">Cookies Policy</a>
+                    </li>
+                    <li>
+                        <a href="#terms-of-services">Terms Of Service</a>
+                    </li>
+                    <li>
+                        <a href="#support">Support</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="column subscribe">
+                <h3>Newsletter</h3>
+                <div>
+                    <input class="newsletter_placeholder" type="email" placeholder="Your email id here" />
+                    <button>Subscribe</button>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="row footer-row-secondary copyright">
+            <div class="footer-menu">
+
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+                <a href="#">Blog</a>
+                <a href="#">Social</a>
+
+            </div>
+            <p>Copyright &copy; 2022 <a class="copyright_text" href="index.html">Feel Good Movies</a></p>
+        </div>
+    </footer>
+    <!-- footer code ends here -->
+
+    <!-- <div class="dummy-text">
+        <h2>BODY THAT WILL CONTAIN ALL THE MOVIES SIMILAR LIKE HOTSTAR</h2>
+    </div> -->
+    <script src="/Feel Good Movies/data.js"></script>
+    <script src="/Feel Good Movies/app.js"></script>
+</body>
+
+</html>
